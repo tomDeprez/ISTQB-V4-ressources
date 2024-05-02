@@ -1,0 +1,1791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="col-12">
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <div data-bind="html:currentQuestionHtmlText">
+          <p style="margin: 0"><span style="font-weight: bold">Quelles sont les déclarations suivantes qui
+              décrivent un objectif de test valide ?</span></p>
+        </div>
+      </div>
+    </div>
+    <!-- ko foreach: responsiveCheckableAnswers -->
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786375">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt">Pour prouver qu'il n'y a pas de défauts non
+              corrigés dans le système testé</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786377">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt">Pour prouver qu'il n'y aura pas de défaillances
+              après la mise en production du système</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786376">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt">Pour réduire le niveau de risque de l'objet de
+              test et renforcer la confiance dans le niveau de qualité</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786374">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt">Pour vérifier qu'il n'y a pas de combinaisons
+              d'entrées non testées</span></p>
+        </span>
+      </div>
+    </div>
+    <!-- /ko -->
+  </div>
+  <div class="col-12" style="height: 150px;"></div>
+  <div class="col-12">
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <div data-bind="html:currentQuestionHtmlText">
+          <p style="margin: 0"><span style="font-weight: bold">Quelles options suivantes illustrent un exemple
+              d'activités de test contribuant au succès ?&nbsp;</span></p>
+        </div>
+      </div>
+    </div>
+    <!-- ko foreach: responsiveCheckableAnswers -->
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786379">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt">Impliquer les testeurs dans diverses activités du
+              cycle de vie du développement logiciel (SDLC) aidera à détecter les défauts dans les
+              produits de travail</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786380">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt">Les testeurs essaient de ne pas déranger les
+              développeurs pendant le codage, afin que ces derniers écrivent un meilleur code</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786378">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt">Les testeurs collaborant avec les utilisateurs
+              finaux aident à améliorer la qualité des rapports de défauts lors de l'intégration de
+              composants et des tests système</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786381">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt">Les testeurs certifiés concevront des cas de test
+              bien meilleurs que les testeurs non certifiés</span></p>
+        </span>
+      </div>
+    </div>
+    <!-- /ko -->
+  </div>
+  <div class="col-12" style="height: 150px;"></div>
+  <div class="col-12">
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <div data-bind="html:currentQuestionHtmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-weight: bold">Vous avez été désigné comme
+              testeur au sein d'une équipe produisant un nouveau système de manière incrémentielle. Vous
+              avez remarqué qu'aucun changement n'a été apporté aux cas de test de régression existants
+              pendant plusieurs itérations et aucun nouveau défaut de régression n'a été identifié. Votre
+              manager est content, mais vous ne l'êtes pas.</span></p>
+          <p style="margin: 0"><br></p>
+          <p style="margin: 0"><span style="font-size: 12pt; font-weight: bold"><span>﻿</span>Quel principe de
+              test explique votre scepticisme ?</span></p>
+        </div>
+      </div>
+    </div>
+    <!-- ko foreach: responsiveCheckableAnswers -->
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786382">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial;">Les tests s'usent</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786383">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial;">L'illusion de l'absence
+              d'erreurs</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786384">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial;">Les défauts se
+              regroupent</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786385">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial;">Les tests exhaustifs sont
+              impossibles</span></p>
+        </span>
+      </div>
+    </div>
+    <!-- /ko -->
+  </div>
+  <div class="col-12" style="height: 150px;"></div>
+
+  <div class="col-12">
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <div data-bind="html:currentQuestionHtmlText">
+          <p style="margin: 0"><span style="font-weight: bold; font-size: 12pt; font-family: Arial; color: #000000">Vous
+              travaillez dans une équipe qui développe une application mobile de commande de nourriture.
+              Dans l'itération actuelle, l'équipe a décidé de mettre en œuvre la fonctionnalité de
+              paiement.</span></p>
+          <p style="margin: 0"><br></p>
+          <p style="margin: 0"><span
+              style="font-weight: bold; font-size: 12pt; font-family: Arial; color: #000000">﻿Quelle
+              activité suivante fait partie de l'analyse des tests ?</span></p>
+        </div>
+      </div>
+    </div>
+    <!-- ko foreach: responsiveCheckableAnswers -->
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786388">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">Estimation
+              que le test de l'intégration avec le service de paiement prendra 8 jours-personnes</span>
+          </p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786387">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">Décision de
+              tester si il est possible de partager correctement le paiement entre plusieurs
+              utilisateurs</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786386">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">Utilisation
+              de l'analyse de la valeur limite (AVL) pour déduire les données de test pour les cas de test
+              qui vérifient le bon traitement du paiement pour le montant minimum autorisé à être
+              payé</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786389">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">Analyse de
+              l'écart entre le résultat réel et le résultat attendu après l'exécution d'un cas de test qui
+              vérifie le processus de paiement avec une carte de crédit, et signaler un défaut</span></p>
+        </span>
+      </div>
+    </div>
+    <!-- /ko -->
+  </div>
+  <div class="col-12" style="height: 150px;"></div>
+  <div class="col-12">
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <div data-bind="html:currentQuestionHtmlText">
+          <p style="margin: 0"><span
+              style="font-weight: bold; font-size: 12pt; font-family: Arial; color: #000000">Quels
+              facteurs suivants (i-v) ont une influence SIGNIFICATIVE sur le processus de test ?</span>
+          </p>
+          <p style="margin: 0"><br></p>
+          <p style="margin: 0"><span style="font-weight: bold; font-size: 12pt; font-family: Arial; color: #000000">i.
+              Le
+              SDLC</span></p>
+          <p style="margin: 0"><span style="font-weight: bold; font-size: 12pt; font-family: Arial; color: #000000">ii.
+              Le nombre
+              de défauts détectés dans les projets précédents</span></p>
+          <p style="margin: 0"><span style="font-weight: bold; font-size: 12pt; font-family: Arial; color: #000000">iii.
+              Les
+              risques produit identifiés</span></p>
+          <p style="margin: 0"><span style="font-weight: bold; font-size: 12pt; font-family: Arial; color: #000000">iv.
+              Nouvelles
+              exigences réglementaires imposant</span></p>
+          <p style="margin: 0"><span style="font-weight: bold; font-size: 12pt; font-family: Arial; color: #000000">v.
+              Le nombre
+              de testeurs certifiés dans l'organisation</span></p>
+        </div>
+      </div>
+    </div>
+    <!-- ko foreach: responsiveCheckableAnswers -->
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786390">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">i, ii ont une
+              influence significative ; iii, iv, v n'ont pas</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786393">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">i, iii, iv
+              ont une influence significative ; ii, v n'ont pas</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786392">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">ii, iv, v ont
+              une influence significative ; i, iii n'ont pas</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786391">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">iii, v ont
+              une influence significative ; i, ii, iv n'ont pas</span></p>
+        </span>
+      </div>
+    </div>
+    <!-- /ko -->
+  </div>
+  <div class="col-12" style="height: 150px;"></div>
+  <div class="col-12">
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <div data-bind="html:currentQuestionHtmlText">
+          <p style="margin: 0"><span
+              style="font-weight: bold; font-size: 12pt; font-family: Arial; color: #000000">Quelles DEUX
+              des tâches suivantes appartiennent PRINCIPALEMENT à un rôle de test ?</span></p>
+        </div>
+      </div>
+    </div>
+    <!-- ko foreach: responsiveCheckableAnswers -->
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786398">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">Configurer
+              les environnements de test</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786396">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">Maintenir le
+              backlog du produit</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786397">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">Concevoir des
+              solutions pour les nouveaux besoins</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786395">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">Créer le plan
+              de test</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786394">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">Rapporter sur
+              la couverture obtenue</span></p>
+        </span>
+      </div>
+    </div>
+    <!-- /ko -->
+  </div>
+  <div class="col-12" style="height: 150px;"></div>
+
+  <div class="col-12">
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <div data-bind="html:currentQuestionHtmlText">
+          <p style="margin: 0"><span
+              style="font-weight: bold; font-size: 12pt; font-family: Arial; color: #000000">Quelles des
+              compétences suivantes (i-v) sont les compétences LES PLUS importantes d'un testeur ?</span>
+          </p>
+          <p style="margin: 0"><br></p>
+          <p style="margin: 0"><span style="font-weight: bold; font-size: 12pt; font-family: Arial; color: #000000">i.
+              Avoir une
+              connaissance du domaine</span></p>
+          <p style="margin: 0"><span style="font-weight: bold; font-size: 12pt; font-family: Arial; color: #000000">ii.
+              Créer une
+              vision produit</span></p>
+          <p style="margin: 0"><span style="font-weight: bold; font-size: 12pt; font-family: Arial; color: #000000">iii.
+              Être un
+              bon joueur d'équipe</span></p>
+          <p style="margin: 0"><span style="font-weight: bold; font-size: 12pt; font-family: Arial; color: #000000">iv.
+              Planifier
+              et organiser le travail de l'équipe</span></p>
+          <p style="margin: 0"><span style="font-weight: bold; font-size: 12pt; font-family: Arial; color: #000000">v.
+              Pensée
+              critique</span></p>
+        </div>
+      </div>
+    </div>
+    <!-- ko foreach: responsiveCheckableAnswers -->
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786400">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">ii et iv sont
+              importantes ; i, iii et v ne le sont pas</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786402">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">i, iii et v
+              sont importantes ; ii et iv ne le sont pas</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786399">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">i, ii et v
+              sont importantes ; iii et iv ne le sont pas</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786401">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">iii et iv
+              sont importantes ; i, ii et v ne le sont pas</span></p>
+        </span>
+      </div>
+    </div>
+    <!-- /ko -->
+  </div>
+  <div class="col-12" style="height: 150px;"></div>
+
+  <div class="col-12">
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <div data-bind="html:currentQuestionHtmlText">
+          <p style="margin: 0"><span
+              style="font-weight: bold; font-size: 12pt; font-family: Arial; color: #000000">Comment
+              l'approche de l'équipe entière est-elle présente dans les interactions entre les testeurs et
+              les représentants commerciaux ?</span></p>
+        </div>
+      </div>
+    </div>
+    <!-- ko foreach: responsiveCheckableAnswers -->
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786406">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">Les
+              représentants commerciaux décident des approches d'automatisation des tests</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786403">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">Les testeurs
+              aident les représentants commerciaux à définir la stratégie de test</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786404">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">Les
+              représentants commerciaux ne font pas partie de l'approche de l'équipe entière</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786405">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">Les testeurs
+              aident les représentants commerciaux à créer des tests d'acceptation adaptés</span></p>
+        </span>
+      </div>
+    </div>
+    <!-- /ko -->
+  </div>
+  <div class="col-12" style="height: 150px;"></div>
+  <div class="col-12">
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <div data-bind="html:currentQuestionHtmlText">
+          <p style="margin: 0"><span
+              style="font-weight: bold; font-size: 12pt; font-family: Arial; color: #000000">Considérez la
+              règle suivante : "pour chaque activité du cycle de vie du développement logiciel, il existe
+              une activité de test correspondante". Dans quels modèles de cycle de vie du développement
+              logiciel cette règle s'applique-t-elle ?</span></p>
+        </div>
+      </div>
+    </div>
+    <!-- ko foreach: responsiveCheckableAnswers -->
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786407">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">Uniquement
+              dans les modèles de développement séquentiel SDLC</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786410">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">Uniquement
+              dans les modèles de développement itératif SDLC</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786409">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">Uniquement
+              dans les modèles de développement itératif et incrémental SDLC</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786408">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">Dans les
+              modèles de développement séquentiel, incrémental et itératif SDLC</span></p>
+        </span>
+      </div>
+    </div>
+    <!-- /ko -->
+  </div>
+  <div class="col-12" style="height: 150px;"></div>
+
+  <div class="col-12">
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <div data-bind="html:currentQuestionHtmlText">
+          <p style="margin: 0"><span
+              style="font-weight: bold; font-size: 12pt; font-family: Arial; color: #000000">Quelle est la
+              meilleure description de l'approche du développement piloté par les tests d'acceptation
+              (ATDD) parmi les énoncés suivants ?</span></p>
+        </div>
+      </div>
+    </div>
+    <!-- ko foreach: responsiveCheckableAnswers -->
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786413">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">Dans l'ATDD,
+              les critères d'acceptation sont généralement créés selon le format donné/quand/alors</span>
+          </p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786411">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">Dans l'ATDD,
+              les cas de test sont principalement créés lors des tests de composants et sont orientés
+              code</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786414">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">Dans l'ATDD,
+              les tests sont créés en fonction des critères d'acceptation pour piloter le développement du
+              logiciel associé</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786412">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; font-family: Arial; color: #000000">Dans l'ATDD,
+              les tests sont basés sur le comportement souhaité du logiciel, ce qui facilite la
+              compréhension par les membres de l'équipe</span></p>
+        </span>
+      </div>
+    </div>
+    <!-- /ko -->
+  </div>
+  <div class="col-12" style="height: 150px;"></div>
+  <div class="col-12">
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <div data-bind="html:currentQuestionHtmlText">
+          <p style="margin: 0"><span
+              style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt; font-weight: bold">Lequel
+              des éléments suivants n'est PAS un exemple de l'approche de déplacement vers la gauche
+              (shift left) ?</span></p>
+        </div>
+      </div>
+    </div>
+    <!-- ko foreach: responsiveCheckableAnswers -->
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786416">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">Passer
+              en revue
+              les exigences utilisateur avant qu'elles ne soient formellement acceptées par les parties
+              prenantes</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786417">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">Écrire
+              un test
+              de composant avant que le code correspondant ne soit écrit</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786415">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span
+              style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">Exécuter un test
+              d'efficacité de performance pour un composant pendant les tests de composants</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786418">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">Écrire
+              un script
+              de test avant de mettre en place le processus de gestion de configuration</span></p>
+        </span>
+      </div>
+    </div>
+    <!-- /ko -->
+  </div>
+  <div class="col-12" style="height: 150px;"></div>
+
+  <div class="col-12">
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <div data-bind="html:currentQuestionHtmlText">
+          <p style="margin: 0"><span
+              style="font-weight: bold; font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">Quels
+              arguments utiliseriez-vous pour convaincre votre manager d'organiser des rétrospectives à la
+              fin de chaque cycle de publication ?</span></p>
+        </div>
+      </div>
+    </div>
+    <!-- ko foreach: responsiveCheckableAnswers -->
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786421">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">Les
+              rétrospectives sont très populaires de nos jours et les clients apprécieraient si nous les
+              ajoutions à nos processus</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786420">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span
+              style="font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">Organiser des
+              rétrospectives permettra à l'organisation d'économiser de l'argent car les représentants des
+              utilisateurs finaux ne fournissent pas de retour immédiat sur le produit</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786419">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">Les
+              faiblesses
+              du processus identifiées lors de la rétrospective peuvent être analysées et servir de liste
+              de tâches pour le programme d'amélioration continue de l'organisation</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786422">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">Les
+              rétrospectives embrassent cinq valeurs, dont le courage et le respect, qui sont cruciaux
+              pour maintenir l'amélioration continue dans l'organisation</span></p>
+        </span>
+      </div>
+    </div>
+    <!-- /ko -->
+  </div>
+  <div class="col-12" style="height: 150px;"></div>
+  <div class="col-12">
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <div data-bind="html:currentQuestionHtmlText">
+          <p style="margin: 0"><span
+              style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt; font-weight: bold">Quels
+              types de défaillances (1-4) correspondent le MIEUX à quels niveaux de test (A-D) ?</span>
+          </p>
+          <p style="margin: 0"><br></p>
+          <p style="margin: 0"><span
+              style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt; font-weight: bold">1.
+              Défaillances dans le comportement du système lorsqu'il s'écarte des besoins métier de
+              l'utilisateur</span></p>
+          <p style="margin: 0"><span
+              style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt; font-weight: bold">2.
+              Défaillances dans la communication entre les composants</span></p>
+          <p style="margin: 0"><span
+              style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt; font-weight: bold">3.
+              Défaillances dans la logique d'un module</span></p>
+          <p style="margin: 0"><span
+              style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt; font-weight: bold">4.
+              Défaillances dans les règles métier non correctement implémentées</span></p>
+          <p style="margin: 0"><br></p>
+          <p style="margin: 0"><span
+              style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt; font-weight: bold">A.
+              Test de composant</span></p>
+          <p style="margin: 0"><span
+              style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt; font-weight: bold">B.
+              Test d'intégration de composants</span></p>
+          <p style="margin: 0"><span
+              style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt; font-weight: bold">C.
+              Test système</span></p>
+          <p style="margin: 0"><span
+              style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt; font-weight: bold">D.
+              Test d'acceptation</span></p>
+        </div>
+      </div>
+    </div>
+    <!-- ko foreach: responsiveCheckableAnswers -->
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786425">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">1D, 2B,
+              3A,
+              4C</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786424">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">1D, 2B,
+              3C,
+              4A</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786423">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">1B, 2A,
+              3D,
+              4C</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786426">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">1C, 2B,
+              3A,
+              4D</span></p>
+        </span>
+      </div>
+    </div>
+    <!-- /ko -->
+  </div>
+  <div class="col-12" style="height: 150px;"></div>
+  <div class="col-12">
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <div data-bind="html:currentQuestionHtmlText">
+          <p style="margin: 0"><span
+              style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt; font-weight: bold">Vous
+              testez une user story avec trois critères d'acceptation : AC1, AC2 et AC3. AC1 est couvert
+              par le cas de test TC1, AC2 par TC2, et AC3 par TC3. L'historique d'exécution des tests
+              comporte trois exécutions de test sur trois versions consécutives du logiciel comme suit
+              :&nbsp;</span></p>
+          <p style="margin: 0"><br></p>
+          <p style="margin: 0"><span style="color: #000000; font-family: Arial; font-size: 12pt; line-height: 1"><img
+                data-align="null" height="107.76626993299388"
+                src="data:image/png;base64,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"
+                style="" width="563"></span></p>
+          <p style="margin: 0"><br></p>
+          <p style="margin: 0"><span
+              style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt; font-weight: bold">Les
+              tests sont répétés une fois que vous êtes informé que tous les défauts trouvés lors de
+              l'exécution du test sont corrigés et qu'une nouvelle version du logiciel est
+              disponible.</span></p>
+          <p style="margin: 0"><br></p>
+          <p style="margin: 0"><span
+              style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt; font-weight: bold">Lesquels
+              des tests ci-dessus sont exécutés en tant que tests de régression ?</span></p>
+        </div>
+      </div>
+    </div>
+    <!-- ko foreach: responsiveCheckableAnswers -->
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786429">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span
+              style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">Seulement 4, 7,
+              8, 9</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786427">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span
+              style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">Seulement 5,
+              7</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786430">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span
+              style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">Seulement 4, 6,
+              8, 9</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786428">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span
+              style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">Seulement 5,
+              6</span></p>
+        </span>
+      </div>
+    </div>
+    <!-- /ko -->
+  </div>
+  <div class="col-12" style="height: 150px;"></div>
+  <div class="col-12">
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <div data-bind="html:currentQuestionHtmlText">
+          <p style="margin: 0"><span
+              style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt; font-weight: bold">Lequel
+              des éléments suivants N'EST PAS un avantage du test statique ?</span></p>
+        </div>
+      </div>
+    </div>
+    <!-- ko foreach: responsiveCheckableAnswers -->
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786434">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">Avoir
+              une
+              gestion des défauts moins coûteuse en raison de la facilité de détection des défauts plus
+              tard dans le cycle de vie du développement logiciel</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786431">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">La
+              correction
+              des défauts trouvés lors du test statique est généralement beaucoup moins coûteuse que la
+              correction des défauts trouvés lors du test dynamique</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786432">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">Trouver
+              des
+              défauts de codage qui pourraient ne pas avoir été trouvés en ne réalisant que des tests
+              dynamiques</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786433">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span
+              style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">Détecter les
+              lacunes et les incohérences dans les exigences</span></p>
+        </span>
+      </div>
+    </div>
+    <!-- /ko -->
+  </div>
+  <div class="col-12" style="height: 150px;"></div>
+  <div class="col-12">
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <div data-bind="html:currentQuestionHtmlText">
+          <p style="margin: 0"><span
+              style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt; font-weight: bold">Quel
+              est l'avantage d'un feedback précoce et fréquent parmi les suivants ?</span></p>
+        </div>
+      </div>
+    </div>
+    <!-- ko foreach: responsiveCheckableAnswers -->
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786435">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">Il
+              améliore le
+              processus de test pour les projets futurs</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786437">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">Il
+              oblige les
+              clients à hiérarchiser leurs exigences en fonction des risques convenus</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786436">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">C'est
+              la seule
+              façon de mesurer la qualité des changements</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786438">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">Il aide
+              à éviter
+              les malentendus concernant les exigences</span></p>
+        </span>
+      </div>
+    </div>
+    <!-- /ko -->
+  </div>
+  <div class="col-12" style="height: 150px;"></div>
+  <div class="col-12">
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <div data-bind="html:currentQuestionHtmlText">
+          <p style="margin: 0"><span
+              style="font-weight: bold; font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">Quelle
+              de ces déclarations N'EST PAS un facteur qui contribue à des révisions réussies
+              ?&nbsp;</span></p>
+        </div>
+        <!-- ko if: inlineBase64ImageData().length > 0 --><!-- /ko -->
+      </div>
+    </div>
+    <!-- ko foreach: responsiveCheckableAnswers -->
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786445">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">Les
+              participants
+              doivent consacrer un temps adéquat à la révision</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786443">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">Diviser
+              de gros
+              produits de travail en petites parties pour rendre l'effort requis moins intense</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786446">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">Les
+              participants
+              doivent éviter les comportements qui pourraient indiquer de l'ennui, de l'exaspération ou de
+              l'hostilité envers les autres participants</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786444">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">Les
+              échecs
+              trouvés doivent être reconnus, appréciés et traités de manière objective</span></p>
+        </span>
+      </div>
+    </div>
+    <!-- /ko -->
+    <!-- ko foreach: responsiveRadioButtonAnswerGroups --><!-- /ko -->
+    <!-- ko foreach: ordinalScaleRowItems --><!-- /ko -->
+    <!-- /ko -->
+  </div>
+  <div class="col-12" style="height: 150px;"></div>
+  <div class="col-12">
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <div data-bind="html:currentQuestionHtmlText">
+          <p style="margin: 0"><span
+              style="font-weight: bold; font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">Les
+              révisions utilisées dans votre organisation ont les attributs suivants :&nbsp;</span></p>
+          <p style="margin: 0"><br></p>
+          <p style="margin: 0"><span
+              style="font-weight: bold; font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">·
+              Il y a le rôle d'un scribe</span></p>
+          <p style="margin: 0"><span
+              style="font-weight: bold; font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">·
+              Le but principal est d'évaluer la qualité</span></p>
+          <p style="margin: 0"><span
+              style="font-weight: bold; font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">·
+              La réunion est dirigée par l'auteur du produit de travail</span></p>
+          <p style="margin: 0"><span
+              style="font-weight: bold; font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">·
+              Il y a une préparation individuelle</span></p>
+          <p style="margin: 0"><span
+              style="font-weight: bold; font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">·
+              Un rapport de révision est produit</span></p>
+          <p style="margin: 0"><br></p>
+          <p style="margin: 0"><span
+              style="font-weight: bold; font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">Quel
+              type de révision suivant est le PLUS probablement utilisé ?</span></p>
+        </div>
+        <!-- ko if: inlineBase64ImageData().length > 0 --><!-- /ko -->
+      </div>
+    </div>
+    <!-- ko foreach: responsiveCheckableAnswers -->
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786442">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span
+              style="font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">Révision
+              informelle</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786441">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span
+              style="font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">Parcours</span>
+          </p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786439">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span
+              style="font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">Révision
+              technique</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786440">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span
+              style="font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">Inspection</span>
+          </p>
+        </span>
+      </div>
+    </div>
+    <!-- /ko -->
+    <!-- ko foreach: responsiveRadioButtonAnswerGroups --><!-- /ko -->
+    <!-- ko foreach: ordinalScaleRowItems --><!-- /ko -->
+    <!-- /ko -->
+  </div>
+  <div class="col-12" style="height: 150px;"></div>
+  <div class="col-12">
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <div data-bind="html:currentQuestionHtmlText">
+          <p style="margin: 0"><span
+              style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt; font-weight: bold">Quelle
+              des caractéristiques suivantes est une caractéristique des techniques de test basées sur
+              l'expérience ?</span></p>
+        </div>
+        <!-- ko if: inlineBase64ImageData().length > 0 --><!-- /ko -->
+      </div>
+    </div>
+    <!-- ko foreach: responsiveCheckableAnswers -->
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786449">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">Les
+              cas de test sont créés sur la base d'informations de conception détaillées</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786447">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">Les
+              éléments testés dans la section du code d'interface sont utilisés pour mesurer la
+              couverture</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786450">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">Les
+              techniques reposent fortement sur la connaissance du testeur du logiciel et du domaine
+              commercial</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786448">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span style="color: #000000; font-family: Arial; line-height: 1; font-size: 12pt">Les
+              cas de test sont utilisés pour identifier les écarts par rapport aux exigences</span></p>
+        </span>
+      </div>
+    </div>
+    <!-- /ko -->
+    <!-- ko foreach: responsiveRadioButtonAnswerGroups --><!-- /ko -->
+    <!-- ko foreach: ordinalScaleRowItems --><!-- /ko -->
+    <!-- /ko -->
+  </div>
+  <div class="col-12" style="height: 150px;"></div>
+  <div class="col-12">
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <div data-bind="html:currentQuestionHtmlText">
+          <p style="margin: 0"><span
+              style="font-weight: bold; font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">Vous
+              testez un formulaire de recherche d'appartement simplifié qui n'a que deux critères de
+              recherche :</span>
+          </p>
+          <p style="margin: 0"><br></p>
+          <p style="margin: 0"><span
+              style="font-weight: bold; font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">•
+              étage (avec trois options possibles : rez-de-chaussée ; premier étage ; deuxième étage ou
+              plus)</span>
+          </p>
+          <p style="margin: 0"><span
+              style="font-weight: bold; font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">•
+              type de jardin (avec trois options possibles : pas de jardin ; petit jardin ; grand
+              jardin)</span></p>
+          <p style="margin: 0"><br></p>
+          <p style="margin: 0"><span
+              style="font-weight: bold; font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">Seuls
+              les appartements au rez-de-chaussée peuvent avoir des jardins. Le formulaire dispose d'un
+              mécanisme de validation intégré qui ne vous permettra pas d'utiliser les critères de
+              recherche
+              qui enfreignent cette règle.</span></p>
+          <p style="margin: 0"><br></p>
+          <p style="margin: 0"><span
+              style="font-weight: bold; font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">Chaque
+              test a deux valeurs d'entrée : étage et type de jardin. Vous voulez appliquer la partition
+              d'équivalence (EP) pour couvrir chaque étage et chaque type de jardin dans vos tests.</span>
+          </p>
+          <p style="margin: 0"><br></p>
+          <p style="margin: 0"><span
+              style="font-weight: bold; font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">Quel
+              est le nombre minimal de cas de test nécessaire pour atteindre une couverture à 100% de PE
+              ?</span></p>
+        </div>
+        <!-- ko if: inlineBase64ImageData().length > 0 --><!-- /ko -->
+      </div>
+    </div>
+    <!-- ko foreach: responsiveCheckableAnswers -->
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786451">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span
+              style="font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">3</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786452">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span
+              style="font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">4</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786453">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span
+              style="font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">5</span></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eMResponsiveQuestionItem">
+        <label class="checkbox" data-bind="css:{ 'state-disabled':$parents[0].isReadOnlyView()}">
+          <input
+            data-bind="checked : isChecked, attr: { name: groupOrNodeName}, onCheckableAnswerElementChange:isChecked, disable: $parents[0].isReadOnlyView()"
+            class="eMNotSelectable" type="checkbox" name="mcAnswerId786454">
+          <i class="eMResponsiveRadioButtonAlignment"
+            data-bind="css: { eMRespCheckableCorrectItem : isCorrectAnswer === true &amp;&amp; $parents[0].showSolution(), eMRespCheckableWrongItem:isCorrectAnswer === false &amp;&amp; $parents[0].showSolution()}"></i>
+        </label>
+        <span class="eMNotSelectable eMRespCheckableItemText" data-bind="html: htmlText">
+          <p style="margin: 0"><span
+              style="font-size: 12pt; line-height: 1; font-family: Arial; color: #000000">6</span></p>
+        </span>
+      </div>
+    </div>
+    <!-- /ko -->
+    <!-- ko foreach: responsiveRadioButtonAnswerGroups --><!-- /ko -->
+    <!-- ko foreach: ordinalScaleRowItems --><!-- /ko -->
+    <!-- /ko -->
+  </div>
+  <div class="col-12" style="height: 150px;"></div>
+
+</body>
+
+</html>
